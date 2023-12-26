@@ -1,0 +1,19 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "editor.formatOnSave": true,
+    "verilog.linting.linter": "verilator",
+    "verilog.languageServer.veribleVerilogLs.enabled": true,
+    "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
+    "verilog.ctags.path": "/usr/bin/ctags",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "files.associations": {
+        "*.py": "python",
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+}
